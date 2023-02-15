@@ -1,0 +1,36 @@
+.wrapper {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.tasksList {
+  list-style: none;
+  padding: 0;
+}
+
+.tasksList__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.tasksList__item__text {
+  overflow-wrap: break-word;
+  padding-top: 6px;
+}
+
+.tasksList__item__left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tasksList__item__right {
+  display: flex;
+}
